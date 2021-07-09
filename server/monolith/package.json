@@ -1,0 +1,25 @@
+{
+  "name": "entertainme",
+  "version": "1.0.0",
+  "description": "- Challenge Pagi\r   - kerjakan di folder `server/monolith`\r - SIANG: \r   - pisahkan app yang kalian buat tadi pagi menjadi arsitektur microservice:\r   - orchestrator: kerjakan di folder `server/orchestrator-express` berupa aplikasi express.js PORT 4000\r   - service movies: kerjakan di folder `server/services/movies` berupa aplikasi express.js PORT 4001\r   - service series: kerjakan di folder `server/services/series` berupa aplikasi express.js PORT 4002",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RezaHabrizal/entertainme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RezaHabrizal/entertainme/issues"
+  },
+  "homepage": "https://github.com/RezaHabrizal/entertainme#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6"
+  }
+}
